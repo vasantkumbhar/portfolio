@@ -1,0 +1,25 @@
+.section1 {
+    h1{
+        font-size: 5rem;
+        padding-top: 35%;
+    }
+
+    h4{
+        font-size: 1.5rem;
+    }
+}
+
+
+// Responsive CSS
+@media only screen and (max-width: 792px){
+    .section1 {
+        h1{
+            font-size: 5rem;
+            padding-top: 10%;
+        }
+
+        h4{
+            line-height: 3rem;
+        }
+    }
+}
