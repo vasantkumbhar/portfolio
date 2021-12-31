@@ -33,3 +33,18 @@ html, body{
     background-color: var(--primary-color);
     color: var(--text-color);
 }
+
+.secondary-button{
+    background-color: var(--primary-color2);
+    color: var(--text-color);
+}
+
+
+.pb-15{
+    padding-bottom: 15px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+/* Importing Bootstrap SCSS file. */

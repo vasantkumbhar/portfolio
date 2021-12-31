@@ -1,0 +1,33 @@
+.section-banner {
+    // height: calc(100vh - 80px);
+
+    h3{
+        font-size: 3rem;
+        padding-top: 22%;
+    }
+
+    h6{
+        font-size: 1.5rem;
+    }
+
+    .banner-image{
+        padding: 10px 0 50px;
+        img{
+            border-radius: 50px 50px 50px 50px;
+            // height: calc(100vh - 180px);
+        }
+    }
+}
+
+// Responsive CSS
+@media only screen and (max-width: 792px){
+    .section-banner {
+        h3{
+            padding-top: 10%;
+        }
+
+        h6{
+            line-height: 2rem;
+        }
+    }
+}
